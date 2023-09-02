@@ -1,0 +1,39 @@
+# Archivos y directorios generados automáticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.ico
+
+# Entornos virtuales (si usas virtualenv o venv)
+venv/
+env/
+.vscode/
+
+# Archivo de configuración de entorno local (si usas python-dotenv)
+.env
+
+# Dependencias y carpetas generadas por diferentes herramientas
+node_modules/
+dist/
+build/
+*.egg-info/
+*.egg
+*.db
+*.sqlite3
+
+# Carpeta de archivos estáticos generados automáticamente (si usas webpack u otras herramientas de construcción)
+static/assets/
+static/build/
+
+# Carpeta de archivos generados por IDEs o editores de código
+.idea/
+.vscode/
