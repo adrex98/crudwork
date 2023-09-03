@@ -16,7 +16,7 @@
 async function listarUsuarios() {
     try {
         const response = await axios.get(`${apiUrl}/usuarios`);
-        return response.data; // Debes retornar los datos, no hacer console.log
+        return response.data;
     } catch (error) {
         console.error(error);
     }
