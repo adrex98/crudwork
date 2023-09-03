@@ -14,8 +14,8 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
-#database_uri = os.environ.get('DATABASE_URI')
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://admin_userhub:iz6h8cydvDxsqIADi54uFp5aL2CsPdlY@dpg-cjq0kf5he99c73abaekg-a/userhub'
+database_uri = os.environ.get('DATABASE_URI')
+app.config['SQLALCHEMY_DATABASE_URI'] = database_uri
 db = SQLAlchemy(app)
 
 class Usuario(db.Model):
