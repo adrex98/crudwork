@@ -1,2 +1,2 @@
-FLASK_APP=api-user.app
-FLASK_DUBUG=1
+FLASK_APP=api-users.app
+FLASK_DEBUG=1
