@@ -70,11 +70,14 @@ La aplicación estará disponible en http://localhost:5000.
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
 Crea un fork del repositorio.
-Clona tu repositorio fork en tu máquina local.
-Crea una rama para tus cambios: git checkout -b feature/nueva-funcion.
-Realiza tus cambios y realiza commit de los mismos: git commit -m 'Agrega nueva función'.
-Sube tus cambios a tu repositorio fork: git push origin feature/nueva-funcion.
-Crea un Pull Request en el repositorio original.
 
-```
+Clona tu repositorio fork en tu máquina local.
+
+Crea una rama para tus cambios: git checkout -b feature/nueva-funcion.
+
+Realiza tus cambios y realiza commit de los mismos: git commit -m 'Agrega nueva función'.
+
+Sube tus cambios a tu repositorio fork: git push origin feature/nueva-funcion.
+
+Crea un Pull Request en el repositorio original.
 
